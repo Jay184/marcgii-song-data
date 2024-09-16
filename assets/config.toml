@@ -1,0 +1,8 @@
+enabled = true
+dll = ["SongData.dll"]
+
+name = "SongData"
+description = "Uses named pipes to expose currently playing song data."
+version = "1.0.0"
+date = "16.09.2024"
+author = "Jay"

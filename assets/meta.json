@@ -1,0 +1,14 @@
+{
+    "name": "SongData",
+    "description": "Uses named pipes to expose currently playing song data.",
+    "descriptionLong": "Uses named pipes to expose currently playing song data.",
+    "version": [ 1, 0, 0 ],
+    "firstRelease": "2024-09-16T00:00:00.000Z",
+    "lastUpdate": "2024-09-16T00:00:00.000Z",
+    "authors": [ "Jay <Jay184@users.noreply.github.com>" ],
+    "tags": [ "code" ],
+    "supportedVersions": [ 100, 101, 102, 103 ],
+    "loadBefore": [],
+    "loadAfter": [],
+    "binaries": [ "SongData.dll" ]
+}

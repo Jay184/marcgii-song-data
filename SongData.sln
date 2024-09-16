@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("CE322CB9-D857-4BD8-9372-A1A3EAD01003") = "SongData", "SongData\SongData.vcxproj", "{A00D6757-F19D-4220-820B-FF042E0364E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00D6757-F19D-4220-820B-FF042E0364E6}.Debug|x64.ActiveCfg = Debug|x64
+		{A00D6757-F19D-4220-820B-FF042E0364E6}.Debug|x64.Build.0 = Debug|x64
+		{A00D6757-F19D-4220-820B-FF042E0364E6}.Release|x64.ActiveCfg = Release|x64
+		{A00D6757-F19D-4220-820B-FF042E0364E6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = BFBE9783-2D8B-4227-9E1C-744F7E3AE362
+	EndGlobalSection
+EndGlobal
