@@ -46,6 +46,9 @@
     <None Include="..\assets\meta.json">
       <Filter>Assets</Filter>
     </None>
+    <None Include="..\assets\settings.toml">
+      <Filter>Assets</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="version.rc">

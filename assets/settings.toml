@@ -1,0 +1,5 @@
+# Named pipe to use for sending and receiving data.
+pipe = '\\.\pipe\marcgii'
+
+# Program to start up. If this line is removed or commented, it will be ignored.
+start = 'program.exe'
