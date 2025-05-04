@@ -59,12 +59,12 @@ SONGDATA_API(void) init() {
     using namespace songdata;
 
     const auto settings = toml::parse_file("settings.toml");
-    const char* pipe_name = settings["pipe"].value_or("\\\\.\\pipe\\marcgii");
+    const std::string pipe_name = settings["pipe"].value_or("\\\\.\\pipe\\marcgii");
 
     song_id = reinterpret_cast<int*>(0x1416E2BEC);
 
     std::thread([pipe_name]() {
-        auto* const pipe = create_pipe(pipe_name);
+        auto* const pipe = create_pipe(pipe_name.c_str());
         const bool result = connect_pipe(pipe);
 
         if (result) {
@@ -75,7 +75,7 @@ SONGDATA_API(void) init() {
     }).detach();
 
     try {
-        const auto path_value = settings["start"].value_or("");
+        const std::string path_value = settings["start"].value_or("");
         const auto startup_path = std::filesystem::path(path_value);
 
         if (std::filesystem::exists(startup_path) &&
